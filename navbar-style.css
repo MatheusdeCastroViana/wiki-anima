@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover{
+    opacity: 0.7;
+}
+
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial;
+    background: #3a3aba;
+    height: 10vh;
+}
+.nav_list{
+    list-style: none;
+    display: flex;
+}
+
+.nav_list a{
+    padding: 25px;
+}
+
+.nav_list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.dropdown_list{
+    position:absolute;
+    display: none;
+    background-color: #3a3aba;
+}
+
+.dropdown_list a{
+    display: block;
+}
+
+.dropdown:hover .dropdown_list{
+    display: block;
+}
