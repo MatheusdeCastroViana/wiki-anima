@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 a{
     color: #fff;
     text-decoration: none;
@@ -17,7 +21,7 @@ nav{
     display:flex;
     justify-content: space-around;
     align-items: center;
-    font-family: Arial;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background: #3a3aba;
     height: 10vh;
 }
