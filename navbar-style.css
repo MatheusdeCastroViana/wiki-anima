@@ -1,54 +1,85 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
 }
 
-body{
+body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-a{
+a {
     color: #fff;
     text-decoration: none;
     transition: 0.3s;
 }
 
-a:hover{
+a:hover {
     opacity: 0.7;
 }
 
-nav{
-    display:flex;
+nav {
+    display: flex;
     justify-content: space-around;
     align-items: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background: #3a3aba;
-    height: 10vh;
+    height: 20vh;
 }
-.nav_list{
+
+.nav_list {
     list-style: none;
     display: flex;
 }
 
-.nav_list a{
+.nav_list a {
     padding: 25px;
 }
 
-.nav_list li{
+.nav_list li {
     letter-spacing: 3px;
     margin-left: 32px;
 }
 
-.dropdown_list{
-    position:absolute;
+.dropdown_list {
+    position: absolute;
     display: none;
     background-color: #3a3aba;
 }
 
-.dropdown_list a{
+.dropdown_list a {
     display: block;
 }
 
-.dropdown:hover .dropdown_list{
+.dropdown:hover .dropdown_list {
     display: block;
+}
+
+.logo {
+    width: 23vh;
+    height: 23vh;
+    margin-top: 15px;
+}
+
+/* Implementação da media query */
+@media (max-width: 768px) {
+    nav {
+        height: auto; /* Redefine a altura para se ajustar ao conteúdo */
+        flex-direction: column; /* Coloca os itens verticalmente em dispositivos menores */
+    }
+
+    .nav_list {
+        flex-direction: column; /* Coloca os itens da lista verticalmente */
+        align-items: center; /* Centraliza os itens */
+    }
+
+    .nav_list li {
+        margin: 10px 0; /* Espaçamento entre os itens da lista */
+        text-align: center; /* Centraliza o texto */
+    }
+
+    .logo {
+        width: 30%; /* Ajusta a largura da logo */
+        height: auto; /* Garante a proporção da logo */
+        margin-bottom: 20px; /* Adiciona um espaço entre a logo e os outros itens */
+    }
 }
