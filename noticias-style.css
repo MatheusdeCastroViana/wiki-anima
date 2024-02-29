@@ -2,6 +2,22 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-{
+.main{
+    background-color: #000000; 
+    color: #fff;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
 
+.main img{
+    width: 100%;
+    margin-bottom: 20%;
+    display: flex;
+  
+}
+
+.main h2{
+    display: flex;
+    margin-left: 15%;
 }
