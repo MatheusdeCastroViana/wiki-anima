@@ -52,6 +52,7 @@ nav {
 
 .dropdown:hover .dropdown_list {
     display: block;
+    z-index: 999;
 }
 
 .logo {
