@@ -2,16 +2,22 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-h1{
-    
-}
-
 .main{
     color: #fff;
     display: flex;
     position: relative;
     align-items: center;
     width: 100%;
+    padding-bottom: 5%;
+    background-color: #3766ff;
+}
+
+.main h2{
+    font-size: 300%;
+}
+
+.main h3{
+    font-size: 150%;
 }
 
 .goku-img{
