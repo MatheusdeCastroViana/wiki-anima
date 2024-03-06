@@ -1,5 +1,9 @@
-body{
+*{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    
 }
 
 .main{
@@ -47,9 +51,10 @@ body{
 
 .section-bem-vindo{
     padding: 5%;
+    color: #fff;
 }
 
-.main h2{
+.main p{
     font-size: 320%;
     white-space: nowrap;
 }
