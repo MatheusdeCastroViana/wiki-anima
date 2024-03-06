@@ -1,5 +1,7 @@
 $('.carousel-destaques').slick({
+  dots: true,
   infinite: true,
-  slidesToShow: 3,
-  slidesToScroll: 3
+  slidesToShow: 6,
+  slidesToScroll: 6,
+  variableWidth: true
 });
