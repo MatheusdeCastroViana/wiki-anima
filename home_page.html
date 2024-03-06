@@ -5,16 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="home_page.css">
-    <script src="home_page.js"></script>
 
     <title>Wiki Anima - Página Inicial</title>
 
     <!--Linkagem com o Slick Slider-->
-    <script src="slick-1.8.1/slick/slick.js"></script>
-    <link rel="stylesheet" href="slick-1.8.1/slick/slick.scss">
+    <link rel="stylesheet" href="slick-1.8.1/slick/slick.css">
     <link rel="stylesheet" href="slick-1.8.1/slick/slick-theme.css">
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!--Linkagem biblioteca jquery-->
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script> <!--Linkagem biblioteca jquery-->
     
     <script>
         $(function(){
@@ -30,56 +28,49 @@
             <div>
                  <h1>Destaques</h1>
             </div>
-            <div class="carousel-container">
-                <div class="carousel">
-                <div class="carousel-item">
-                     <img src="https://cdn.myanimelist.net/images/anime/1208/94745.jpg" alt="Anime 1">
-                     <div class="carousel-subtitle">Fullmetal Alchemist</div>
+                <div class="destaques-container">
+                    <div class="carousel-destaques">
+                        <div class="img-destaques">
+                            <img src="https://cdn.myanimelist.net/images/anime/1208/94745.jpg" alt="Anime 1">
+                            <div class="carousel-subtitle">Fullmetal Alchemist</div>
+                        </div>
+                        <div class="img-destaques">
+                            <img src="https://cdn.myanimelist.net/images/anime/1935/127974.jpg" alt="Anime 2">
+                            <div class="carousel-subtitle">Steins Gate</div>
+                        </div>
+                        <div class="img-destaques">
+                            <img src="https://cdn.myanimelist.net/images/anime/1337/99013.jpg" alt="Anime 3">
+                            <div class="carousel-subtitle">Hunter x Hunter</div>
+                        </div>
+                        <div class="img-destaques">
+                            <img src="https://cdn.myanimelist.net/images/anime/1244/138851.jpg" alt="Anime 4">
+                            <div class="carousel-subtitle">One Piece</div>
+                        </div>
+                        <div class="img-destaques">
+                            <img src="https://cdn.myanimelist.net/images/anime/1079/138100.jpg" alt="Anime 5">
+                            <div class="carousel-subtitle">Death Note</div>
+                        </div>
+                        <div>
+                            <img src="https://cdn.myanimelist.net/images/anime/10/78745.jpg" alt="Anime 6">
+                            <div class="carousel-subtitle">Boku no Hero Academia</div>
+                        </div>
+                        <div class="img-destaques">
+                            <img src="https://cdn.myanimelist.net/images/anime/1171/109222.jpg" alt="Anime 7">
+                            <div class="carousel-subtitle">Jujutsu Kaisen</div>
+                        </div>
+                        <div class="img-destaques">
+                            <img src="https://cdn.myanimelist.net/images/anime/3/40451.jpg" alt="Anime 48">
+                            <div class="carousel-subtitle">Bleach</div>
+                        </div>
+                        <div class="img-destaques">
+                            <img src="https://cdn.myanimelist.net/images/anime/1565/111305.jpg" alt="Anime 4">
+                            <div class="carousel-subtitle">Naruto Shippuden</div>
+                        </div>
+                    </div>
                 </div>
-                <div class="carousel-item">
-                        <img src="https://cdn.myanimelist.net/images/anime/1935/127974.jpg" alt="Anime 2">
-                        <div class="carousel-subtitle">Steins Gate</div>
-                 </div>
-                 <div class="carousel-item">
-                      <img src="https://cdn.myanimelist.net/images/anime/1337/99013.jpg" alt="Anime 3">
-                      <div class="carousel-subtitle">Hunter x Hunter</div>
-                 </div>
-                 <div class="carousel-item">
-                     <img src="https://cdn.myanimelist.net/images/anime/1244/138851.jpg" alt="Anime 4">
-                     <div class="carousel-subtitle">One Piece</div>
-                 </div>
-                 <div class="carousel-item">
-                     <img src="https://cdn.myanimelist.net/images/anime/1079/138100.jpg" alt="Anime 5">
-                     <div class="carousel-subtitle">Death Note</div>
-                 </div>
-                 <div class="carousel-item">
-                     <img src="https://cdn.myanimelist.net/images/anime/10/78745.jpg" alt="Anime 6">
-                     <div class="carousel-subtitle">Boku no Hero Academia</div>
-                 </div>
-                <div class="carousel-item">
-                    <img src="https://cdn.myanimelist.net/images/anime/1171/109222.jpg" alt="Anime 7">
-                     <div class="carousel-subtitle">Jujutsu Kaisen</div>
-                 </div>
-                <div class="carousel-item">
-                    <img src="https://cdn.myanimelist.net/images/anime/3/40451.jpg" alt="Anime 48">
-                     <div class="carousel-subtitle">Bleach</div>
-                </div>
-                <div class="carousel-item">
-                    <img src="https://cdn.myanimelist.net/images/anime/1565/111305.jpg" alt="Anime 4">
-                    <div class="carousel-subtitle">Naruto Shippuden</div>
-                </div>
-                </div>
-                    <button class="carousel-btn prev-btn" onclick="moveCarousel(-1)">❮</button>
-                    <button class="carousel-btn next-btn" onclick="moveCarousel(1)">❯</button>
-                </div>
-        <div>
-        <h1>Personagens Populares</h1>
-        </div>
-        <div class="carousel-personagens">
-            <img src="https://cdn.myanimelist.net/images/anime/1565/111305.jpg">
-            <img src="https://cdn.myanimelist.net/images/anime/1565/111305.jpg">
-            <img src="https://cdn.myanimelist.net/images/anime/1565/111305.jpg">
-            <img src="https://cdn.myanimelist.net/images/anime/1565/111305.jpg">
-        </div>
+        <script type="text/javascript" src="slick-1.8.1/slick/slick.js"></script> <!-- Linkagem com a biblioteca do slick slider-->
+
+        <script src="home_page.js"></script> <!--Linkagem com o documento javascript-->
+
 </body>
 </html>
