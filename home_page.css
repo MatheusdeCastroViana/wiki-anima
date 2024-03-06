@@ -12,10 +12,19 @@ body{
 
 .carousel-destaques{
   padding-top: 20px;
-  width: 1300px;
+  width: 1000px;
   margin: 0 auto;
 }
 
+.carousel-personagens{
+  padding-top: 20px;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.img-personagens img{
+  padding: 10px;
+}
 
 .img-destaques img{
   padding: 10px;
@@ -25,4 +34,14 @@ body{
   margin-top: 5px;
   font-size: 14px;
   color: #fff;
+}
+
+.img-personagens img:hover{
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+}
+
+.img-destaques img:hover{
+  transform: scale(1.1);
+  transition-duration: 0.5s;
 }
