@@ -1,0 +1,40 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main-article{
+    color: #000000;
+    align-items: center;
+    display: flex
+}
+
+.noticia{
+    padding-left: 10%;
+}
+
+.article-noticia{
+    height: 5000%;
+}
+
+.data-noticia{
+    display: flex;
+    position: relative;
+}
+
+.data-noticia button{
+    border-radius: 15%;
+    height: 20%;
+    margin-top: 1.4%;
+    margin-right: 1%;
+}
+
+.vertical-line{
+    border-left: 1px solid rgb(201, 201, 201);
+    height: 270vh;
+    padding-left: 30%;
+    margin-left: 1%;
+}
+
+.recomendados{
+    
+}
