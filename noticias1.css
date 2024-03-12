@@ -9,7 +9,7 @@
 }
 
 .noticia{
-    padding-left: 10%;
+    padding-left: 8%;
 }
 
 .article-noticia{
@@ -31,10 +31,19 @@
 .vertical-line{
     border-left: 1px solid rgb(201, 201, 201);
     height: 270vh;
-    padding-left: 30%;
+    padding-left: 1%;
     margin-left: 1%;
+    padding-right: 10%;
 }
 
-.recomendados{
-    
+.area-recomendacao{
+    position: relative;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-right: 5%;
+}
+
+.recomendados hr{
+    padding-right: 170%
 }
