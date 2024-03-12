@@ -24,6 +24,7 @@ nav {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background: #3a3aba;
     height: 20vh;
+    width: 100vw;
 }
 
 .nav_list {
@@ -52,6 +53,7 @@ nav {
 
 .dropdown:hover .dropdown_list {
     display: block;
+    z-index: 999;
 }
 
 .logo {
