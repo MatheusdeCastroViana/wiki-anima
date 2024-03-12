@@ -7,8 +7,16 @@
     <title>Notícias</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script> <!--Linkagem biblioteca jquery-->
+    <script>
+        $(function(){
+            $("#navbar").load("navbar.html");  //script java para incorporar a navbar automáticamente//
+        });
+    </script>
 </head>
 <body>
+    <!-- Navbar será carregada aqui -->
+    <div id="navbar"></div>
     <main class="main"> <!--Nessa sessão main, coloquei a apresentação da página.-->
         <section><img src="./assets/img/noticias/apresentacao/goku.png" class="goku-img" alt="goku"></section>
         <section class="section-main">
