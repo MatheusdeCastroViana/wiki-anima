@@ -24,7 +24,7 @@ nav {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background: #3a3aba;
     height: 20vh;
-    width: 100vw;
+    width: 100%;
 }
 
 .nav_list {
