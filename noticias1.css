@@ -41,6 +41,7 @@ body{
     padding-left: 8%;
     font-size: 100%;
     padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 
@@ -106,4 +107,20 @@ body{
     width: 100%;
     border-width: 1px;
     border-color: #ff0000;
+}
+
+.recomendado1{
+    position: relative;
+    display: flex;
+    padding-top: 10%;
+}
+
+.recomendado1 img{
+    margin-right: 5%;
+}
+
+.recomendado1 a{
+    margin-top: 15%;
+    margin-right: 80%;
+    color: #000000;
 }
