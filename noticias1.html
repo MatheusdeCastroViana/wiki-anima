@@ -7,13 +7,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script> <!--Linkagem biblioteca jquery-->
     <script>
         $(function(){
             $("#navbar").load("navbar.html");  //script java para incorporar a navbar automáticamente//
         });
     </script>
+    <link rel="icon" href="./assets/img/logo/logotipo.ico" type="image/x-icon">
     <title>Naruto ganhará versão Live Action</title>
 </head>
 <body>
@@ -38,6 +38,7 @@
             <br>
             <h4>O filme será baseado no mangá de sucesso criado por Masashi Kishimoto, que vendeu mais de 250   milhões de cópias em mais de 60 países e territórios, tornando-se um dos IPs mais populares do mundo.</h4>
             <br>
+            <!--Imagem no meio da notícia.-->
             <figure>
                 <img src="./assets/img/noticias/noticia1/shang-chi.jpg" alt="shan-chi">
                 <figcaption>Lionsgate/Todos os direitos reservados</figcaption>
@@ -67,22 +68,36 @@
         <div class="area-recomendacao">
             <div class="vertical-line"></div>
             <ul class="recomendados">
-                <h2>Animes Recomendados</h2>
-                <hr>
-                <!--Dividi o container em 3 div's dentro de uma div master, para ficar uma embaixo da outra. Com isso, as div's seram divididas em mais duas div's, para o nome e o link ficarem embaixo um do outro.-->
-                <li class="recomendado1">
-                    <article></article>
-                    <div><img src="./assets/img/anime_poster/boku_no_hero.jpg" alt="Boku no Hero"></div>
-                    <div><h2>Boku no Hero</h2></div>
-                    <a href="./">Acessar</a>
+                <li><h2>Animes Recomendados</h2></li>
+                <hr class="animes-recomendados">
+                <!--Separei os arquivos em uma lista não ordenada.-->
+                <div class="recomendados-animes">
+                    <article>
+                        <li class="li-recomendados"><img src="./assets/img/anime_poster/boku_no_hero.jpg" alt="Boku no Hero"></li>
+                        <li><h2>Boku no Hero</h2></li>
+                        <li class="acessar"><a href="./">Acessar</a></li>
+                    </article>
                 </div>
-                <li class="recomendado2">  
-
-                </div>
-                <li class="recomendado3">  
-
-                </div>
-            </div>
+                <br><br><hr>
+                <li class="recomendados-animes">  
+                    <article>
+                        <li class="li-recomendados"><img src="./assets/img/anime_poster/jujutsu_kaisen.jpg" alt="Jujutsu Kaisen"></li>
+                        <li><h2>Jujutsu Kaisen</h2></li>
+                        <li class="acessar"><a href="./">Acessar</a></li>
+                    </article>
+                </li>
+                <br><br><hr>
+                <li class="recomendados-animes">  
+                    <article>
+                        <li class="li-recomendados3"><img src="./assets/img/anime_poster/fullmetal.jpg" alt="Fullmetal Alchemist: Brotherhood"></li>
+                        <li><h2>Fullmetal Alchemist</h2></li>
+                        <li class="acessar"><a href="./">Acessar</a></li>
+                    </article>
+                </li>
+                <br><br><hr><br>
+                <li><h2>Leia Também</h2></li>
+                <hr class="animes-recomendados">
+            </ul>
         </div>
     </main>
 </body>
