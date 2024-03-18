@@ -148,3 +148,27 @@ li{
 .li-recomendados3{
     padding-right: 15%;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .noticia{
+        position: relative;
+    }
+    
+    h1, h2, h3, h4, h5 {
+        font-size: 16px;
+    }
+
+    .botao{
+      margin-right: 1%;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+    h1, h2, h3, h4, h5 {
+        font-size: 16px;
+    }
+
+    .botao{
+      margin-right: 1%;
+    }
+}
