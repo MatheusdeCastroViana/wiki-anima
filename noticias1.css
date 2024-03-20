@@ -9,8 +9,13 @@ h4{
     font-weight: 1px;
 }
 
+a {
+    text-align: center;
+}
+
 figcaption{
-    padding-left: 35%;
+    padding-left: 2%;
+    text-align: center;
 }
 
 body{
@@ -67,14 +72,16 @@ li{
 }
 
 .data-noticia a{
-    width: 10%;
+    width: 12%;
+    position: relative;
     background-color: rgba(255, 0, 0, 0.342);
     border-radius: 25%;
     height: 20%;
-    margin-right: 1%;
+    margin-right: 3%;
     color: black;
     text-align: center;
     border: 1px solid #ffffff;
+    display: inline-block;
 }
 
 .data-noticia a:hover{
@@ -159,8 +166,81 @@ li{
     .area-recomendacao{
         display: none;
     }
+
+    .data-noticia a{
+        display: none;
+    }
+
+    h1{
+        font-size: 7vw;
+    }
+
+    figcaption{
+        padding-left: 5%;
+        text-align: center;
+    }
+
+    .main-noticia h3{
+        font-size: 5vw;
+    }
+
+    .main-noticia h4{
+        font-size: 3vw;
+    }
+
+
+    .recomendados-responsive{
+        margin: 4%;
+    }
+
+    .recomendados-responsive article{
+        background-color: #ffffff;
+        border-radius: 10%;
+        padding: 5%;
+    }
+
+    .recomendados-animes-responsive a{
+        color: #000000;
+    }
+
+    .animes-recomendados{
+        border-color: #000000;
+    }
+
+    .data-noticia-responsive{
+        display: flex;
+        position: relative;
+    }
+
+    .data-noticia-responsive a{
+        width: 20%;
+        position: relative;
+        background-color: rgba(0, 0, 0, 0.623);
+        border-radius: 20%;
+        height: 25px;
+        margin-right: 3%;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        border: 1px solid #ffffff;
+        display: inline-block;
+        margin-left: 3%;
+        font-size: 15px;
+        padding-top: 0.5%;
+    }
+
     .noticia{
-            margin-bottom: 0;
-    }    
+        margin-bottom: 0;
+    }
+        
+    .main-article{
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+        align-items: center;
+        display: flex;
+        margin: 5%;
+        border-radius: 5%;
+        padding-right: 7%;
+    }
+
 }
 
