@@ -73,7 +73,7 @@
                 <!--Separei os arquivos em uma lista não ordenada.-->
                 <div class="recomendados-animes">
                     <article>
-                        <li class="li-recomendados"><img src="./assets/img/anime_poster/boku_no_hero.jpg" alt="Boku no Hero"></li>
+                        <a href="./"><li class="li-recomendados"><img src="./assets/img/anime_poster/boku_no_hero.jpg" alt="Boku no Hero"></li></a>
                         <li><h2>Boku no Hero</h2></li>
                         <li class="acessar"><a href="./">Acessar</a></li>
                     </article>
@@ -81,7 +81,7 @@
                 <br><br><hr>
                 <li class="recomendados-animes">  
                     <article>
-                        <li class="li-recomendados"><img src="./assets/img/anime_poster/jujutsu_kaisen.jpg" alt="Jujutsu Kaisen"></li>
+                        <a href="./"><li class="li-recomendados"><img src="./assets/img/anime_poster/jujutsu_kaisen.jpg" alt="Jujutsu Kaisen"></li></a>
                         <li><h2>Jujutsu Kaisen</h2></li>
                         <li class="acessar"><a href="./">Acessar</a></li>
                     </article>
@@ -89,7 +89,7 @@
                 <br><br><hr>
                 <li class="recomendados-animes">  
                     <article>
-                        <li class="li-recomendados3"><img src="./assets/img/anime_poster/fullmetal.jpg" alt="Fullmetal Alchemist: Brotherhood"></li>
+                        <a href="./"><li class="li-recomendados3"><img src="./assets/img/anime_poster/fullmetal.jpg" alt="Fullmetal Alchemist: Brotherhood"></li></a>
                         <li><h2>Fullmetal Alchemist</h2></li>
                         <li class="acessar"><a href="./">Acessar</a></li>
                     </article>
@@ -120,37 +120,52 @@
         <div class="data-noticia-responsive">
             <a href="./noticias.html">Notícias</a><br><br><br>
         </div>
-        <hr><br>
+        <br>
         <ul class="recomendados-responsive">
-            <li><h2>Animes Recomendados</h2></li>
+            <li><h2 class="h2-responsive">Animes Recomendados</h2></li><br>
             <hr class="animes-recomendados"><br>
-            <!--Separei os arquivos em uma lista não ordenada.-->
+            <!--Separei os arquivos em uma lista não ordenada. Os containers estão divididos em uma div diplay flex, para ficar o texto ao lado da imagem e outra separada para o botão acessar ficar abaixo da imagem-->
             <div class="recomendados-animes-responsive">
                 <article>
-                    <li class="li-recomendados-responsive"><img src="./assets/img/anime_poster/boku_no_hero.jpg" alt="Boku no Hero"></li>
+                    <div>
+                        <div class="anime-recomendado">
+                            <li class="li-recomendados-responsive"><img src="./assets/img/anime_poster/boku_no_hero.jpg" alt="Boku no Hero"></li>
+                            <h4>Acompanhe Izuku Midoriya, conhecido como Deku, enquanto ele luta para alcançar seu sonho de se tornar o maior herói de todos os tempos. Com uma narrativa repleta de ação, amizade e desafios emocionantes, este anime conquista corações em todo o mundo. Prepare-se para uma aventura inesquecível e mergulhe no mundo dos heróis com Boku no Hero!</h4>
+                        </div>
                     <li><h2>Boku no Hero</h2></li>
+                    </div> 
                     <li class="acessar"><a href="./">Acessar</a></li>
                 </article>
             </div>
-            <br><br><hr><br><br>
+            <br><br><br>
             <li class="recomendados-animes-responsive">  
                 <article>
-                    <li class="li-recomendados-responsive"><img src="./assets/img/anime_poster/jujutsu_kaisen.jpg" alt="Jujutsu Kaisen"></li>
-                    <li><h2>Jujutsu Kaisen</h2></li>
+                    <div>
+                        <div class="anime-recomendado">
+                            <li class="li-recomendados-responsive"><img src="./assets/img/anime_poster/jujutsu_kaisen.jpg" alt="Jujutsu Kaisen"></li>
+                            <h4>Acompanhe Yuji Itadori enquanto ele se envolve em uma batalha épica entre maldições e exorcistas. Com animação de alta qualidade e personagens cativantes, Jujutsu Kaisen promete uma experiência emocionante para os fãs de anime. Assista agora e mergulhe nesta aventura cheia de adrenalina!</h4>
+                        </div>
+                        <li><h2>Jujutsu Kaisen</h2></li>
+                    </div>
                     <li class="acessar"><a href="./">Acessar</a></li>
                 </article>
             </li>
-            <br><br><hr><br><br>
+            <br><br><br>
             <li class="recomendados-animes-responsive">  
                 <article>
-                    <li class="li-recomendados3-responsive"><img src="./assets/img/anime_poster/fullmetal.jpg" alt="Fullmetal Alchemist: Brotherhood"></li>
-                    <li><h2>Fullmetal Alchemist</h2></li>
+                    <div>
+                        <div class="anime-recomendado">
+                            <li class="li-recomendados-responsive"><img src="./assets/img/anime_poster/fullmetal.jpg" alt="Fullmetal Alchemist: Brotherhood"></li>
+                            <h4>Acompanhe Yuji Itadori enquanto ele se envolve em uma batalha épica entre maldições e exorcistas. Com animação de alta qualidade e personagens cativantes, Jujutsu Kaisen promete uma experiência emocionante para os fãs de anime. Assista agora e mergulhe nesta aventura cheia de adrenalina!</h4>
+                        </div>
+                        <li class="li-margin-responsive"><h2>Fullmetal<br>Alchemist</h2></li>
+                    </div>
                     <li class="acessar"><a href="./">Acessar</a></li>
                 </article>
             </li>
-            <br><br><hr><br>
-            <li><h2>Leia Também</h2></li>
-            <hr class="animes-recomendados-responsive"><br><br>
+            <br><br><br>
+            <li><h2 class="h2-responsive">Leia Também</h2></li>
+            <hr class="animes-recomendados"><br><br>
             <div class="recomendados-animes-responsive">
                 <article>
                     <li class="li-recomendados-responsive"><img src="./" alt="Noticia 1"></li>

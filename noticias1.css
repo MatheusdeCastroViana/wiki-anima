@@ -130,7 +130,16 @@ li{
     display: block;
 }
 
-.recomendados-animes a{
+.img-a:hover{
+    background-color: #ffffff;
+}
+
+.img-a:hover{
+    background-color: #ffffff;
+    border: none;
+}
+
+.acessar a{
     margin-top: 15%;
     margin-right: 80%;
     width: 10%;
@@ -142,10 +151,11 @@ li{
     border: 1px solid #ffffff;
 }
 
-.recomendados-animes a:hover{
+.acessar a:hover{
     background-color: #ffffff;
     border: 1px solid #000000;
 }
+
 
 .recomendados-animes hr{
     width: 100%;
@@ -153,7 +163,14 @@ li{
 }
 
 .li-recomendados3{
-    padding-right: 15%;
+    margin-right: 15%;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+    .main-noticia h1{
+        font-size: 4vw;
+    }
+
 }
 
 @media screen and (min-width: 1000px) {
@@ -172,7 +189,7 @@ li{
     }
 
     h1{
-        font-size: 7vw;
+        font-size: 6vw;
     }
 
     figcaption{
@@ -181,7 +198,7 @@ li{
     }
 
     .main-noticia h3{
-        font-size: 5vw;
+        font-size: 4vw;
     }
 
     .main-noticia h4{
@@ -201,10 +218,25 @@ li{
 
     .recomendados-animes-responsive a{
         color: #000000;
+        background-color: rgba(255, 0, 0, 0.342);
+        border-radius: 25%;
+        border: 1px solid #ffffff;
+    }
+
+    .recomendados-animes-responsive a:hover{
+        background-color: #ffffff;
+        border: 1px solid #000000;
+    }
+
+    .h2-responsive{
+        color: #ffffff;
+        font-size: 4vw;
+        font-style:oblique;
     }
 
     .animes-recomendados{
-        border-color: #000000;
+        border-color: #ff000094;
+        border-width: 2px;
     }
 
     .data-noticia-responsive{
@@ -240,6 +272,23 @@ li{
         margin: 5%;
         border-radius: 5%;
         padding-right: 7%;
+    }
+
+    .anime-recomendado{
+        display: flex;
+        position: relative;
+    }
+
+    .anime-recomendado h4{
+        text-indent: 15%;
+        font-size: 4vw;
+    }
+
+    .li-recomendados-responsive{
+        margin-right: 5%;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20vw;
     }
 
 }
