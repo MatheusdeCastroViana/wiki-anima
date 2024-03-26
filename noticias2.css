@@ -1,0 +1,310 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h4{
+    font-family: "Lato", sans-serif ; 
+    font: 16px;
+    margin: 16px 0px 0px;
+    font-weight: 1px;
+}
+
+a {
+    text-align: center;
+}
+
+figcaption{
+    padding-left: 2%;
+    text-align: center;
+}
+
+body{
+    background-color: #3766ff;
+}
+
+li{
+    list-style-type: none;
+}
+
+.main-article{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    display: flex;
+    margin: 5%;
+    border-radius: 5%;
+}
+
+.main-article img{
+    max-width: 100%;
+    margin: auto;
+    display: block;
+    height: auto;
+}
+
+.main-article figure{
+    max-width: 100%;
+    margin: auto;
+    display: block;
+    height: auto;
+}
+
+.main-noticia h1,h2{
+    color: black;
+}
+
+.noticia{
+    padding-left: 8%;
+    font-size: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+
+.article-noticia{
+    height: 5000%;
+}
+
+.article-noticia h5{
+    max-width: 100%;
+    margin: auto;
+    display: block;
+    height: auto;
+    left: 300%;
+}
+
+.data-noticia{
+    display: flex;
+    position: relative;
+}
+
+.data-noticia a{
+    width: 12%;
+    position: relative;
+    background-color: rgba(255, 0, 0, 0.342);
+    border-radius: 25%;
+    height: 20%;
+    margin-right: 3%;
+    color: black;
+    text-align: center;
+    border: 1px solid #ffffff;
+    display: inline-block;
+}
+
+.data-noticia a:hover{
+    background-color: #ffffff;
+    border: 1px solid #000000;
+}
+
+.vertical-line{
+    border-left: 1px solid rgb(201, 201, 201);
+    height: 270vh;
+    padding-left: 1%;
+    margin-left: 1%;
+    padding-right: 10%;
+}
+
+.area-recomendacao{
+    position: relative;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-right: 5%;
+}
+
+.recomendados{
+    padding-top: 10%;
+}
+
+.recomendados h2{
+    white-space: nowrap;
+}
+
+.animes-recomendados{
+    width: 100%;
+    border-width: 1px;
+    border-color: #ff0000;
+}
+
+.recomendados-animes{
+    position: relative;
+    display: flex;
+    padding-top: 10%;
+}
+
+.recomendados-animes img{
+    margin-right: 10%;
+    display: block;
+}
+
+.img-a:hover{
+    background-color: #ffffff;
+}
+
+.img-a:hover{
+    background-color: #ffffff;
+    border: none;
+}
+
+.acessar a{
+    margin-top: 15%;
+    margin-right: 80%;
+    width: 10%;
+    background-color: rgba(255, 0, 0, 0.342);
+    border-radius: 25%;
+    height: 20%;
+    color: black;
+    text-align: center;
+    border: 1px solid #ffffff;
+}
+
+.acessar a:hover{
+    background-color: #ffffff;
+    border: 1px solid #000000;
+}
+
+
+.recomendados-animes hr{
+    width: 100%;
+    border-width: 1px;
+}
+
+.li-recomendados3{
+    margin-right: 15%;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+    .main-noticia h1{
+        font-size: 4vw;
+    }
+
+}
+
+@media screen and (min-width: 1000px) {
+    .recomendados-animes-responsive{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .area-recomendacao{
+        display: none;
+    }
+
+    .data-noticia a{
+        display: none;
+    }
+
+    h1{
+        font-size: 6vw;
+    }
+
+    figcaption{
+        padding-left: 5%;
+        text-align: center;
+    }
+
+    .main-noticia h3{
+        font-size: 4vw;
+    }
+
+    .main-noticia h4{
+        font-size: 3vw;
+    }
+
+
+    .recomendados-responsive{
+        margin: 4%;
+    }
+
+    .recomendados-responsive article{
+        background-color: #ffffff;
+        border-radius: 10%;
+        padding: 5%;
+    }
+
+    .acessar a{
+        color: #000000;
+        background-color: rgba(255, 0, 0, 0.342);
+        border-radius: 25%;
+        border: 1px solid #ffffff;
+    }
+
+    .acessar a:hover{
+        background-color: #ffffff;
+        border: 1px solid #000000;
+    }
+
+    .h2-responsive{
+        color: #ffffff;
+        font-size: 4vw;
+        font-style:oblique;
+    }
+
+    .animes-recomendados{
+        border-color: #ff000094;
+        border-width: 2px;
+    }
+
+    .data-noticia-responsive{
+        display: flex;
+        position: relative;
+    }
+
+    .data-noticia-responsive a{
+        width: 20%;
+        position: relative;
+        background-color: rgba(0, 0, 0, 0.623);
+        border-radius: 20%;
+        height: 25px;
+        margin-right: 3%;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        border: 1px solid #ffffff;
+        display: inline-block;
+        margin-left: 3%;
+        font-size: 15px;
+        padding-top: 0.5%;
+    }
+
+    .noticia{
+        margin-bottom: 0;
+    }
+        
+    .main-article{
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+        align-items: center;
+        display: flex;
+        margin: 5%;
+        border-radius: 5%;
+        padding-right: 7%;
+    }
+
+    .anime-recomendado{
+        display: flex;
+        position: relative;
+    }
+
+    .anime-recomendado h4{
+        text-indent: 15%;
+        font-size: 2vw;
+        margin-right: 25vw;
+        margin-left: 5vw;
+    }
+
+    .li-recomendados-responsive {
+        margin-right: 5%;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5vw;
+        background-color: #ffffff;
+    }
+
+    .li-recomendados-responsive:hover{
+        background-color: #ffffff;
+        border: none;
+    }
+
+
+}
