@@ -42,11 +42,11 @@ li{
     height: auto;
 }
 
-.main-article figure{
-    max-width: 100%;
+.main-article iframe{
     margin: auto;
     display: block;
-    height: auto;
+    height: 20vw;
+    width: 50vw;
 }
 
 .main-noticia h1,h2{
