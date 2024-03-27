@@ -49,6 +49,16 @@ li{
     width: 50vw;
 }
 
+.twitter-tweet{
+    margin: auto;
+    display: block;
+    height: 20vw;
+    width: 50vw;
+    position: relative;
+    display: flex;
+    margin-bottom: 200%;
+}
+
 .main-noticia h1,h2{
     color: black;
 }
